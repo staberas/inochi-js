@@ -6,9 +6,9 @@
 */
 import { deserializePuppet } from "./puppet.js";
 import * as THREE from '../inochi2d.es.js';
-import { Parser } from "binary-parser.js";
-import { decode } from "fast-png.js";
-import { decodeTga } from "@lunapaint/tga-codec.js";
+import { Parser } from "./binary-parser.js";
+import { decode } from "./fast-png.js";
+import { decodeTga } from "./tga-codec.js";
 export async function downloadFile(url) {
     const response = await fetch(url);
     const arrayBuffer = await response.arrayBuffer();
