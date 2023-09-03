@@ -4,8 +4,8 @@
     
     Authors: Luna Nielsen
 */
-import { Node } from './nodes/node';
-import { deserializeNode as deserializeNode } from "./nodes/serialiser";
+import { Node } from './nodes/node.js';
+import { deserializeNode as deserializeNode } from "./nodes/serialiser.js";
 export const NO_THUMBNAIL = 4294967295;
 export var PuppetAllowedUsers;
 (function (PuppetAllowedUsers) {
