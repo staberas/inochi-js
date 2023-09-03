@@ -4,8 +4,8 @@
     
     Authors: Luna Nielsen
 */
-import { Transform } from "../math/transform";
-import * as THREE from "three";
+import { Transform } from "../math/transform.js";
+import * as THREE from "../inochi2d.es.js";
 /**
  * Blending mode.
  */
