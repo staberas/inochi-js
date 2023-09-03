@@ -4,6 +4,6 @@
     
     Authors: Luna Nielsen
 */
-export * as Puppet from './puppet';
-export * as INP from './inp';
-export * as Renderer from './renderer/renderer';
+export * as Puppet from './puppet.js';
+export * as INP from './inp.js';
+export * as Renderer from './renderer/renderer.js';
