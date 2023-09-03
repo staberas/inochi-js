@@ -1,5 +1,5 @@
 import { MeshData } from "../meshdata.js";
-import * as THREE from "three";
+import * as THREE from "../inochi2d.es.js";
 import { Node, MaskingMode, BlendMode } from "./node.js";
 import { blend_modes } from "../renderer/renderer.js";
 /**
