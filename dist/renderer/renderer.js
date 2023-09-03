@@ -6,7 +6,7 @@
     
     Authors: FartDraws
 */
-import * as THREE from "three";
+import * as THREE from "../inochi2d.es.js";
 import { BlendMode } from "../nodes/node.js";
 export const blend_modes = [
     { _blendmode: BlendMode.Normal, _constant: THREE.NormalBlending },
