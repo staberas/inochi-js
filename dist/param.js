@@ -8,7 +8,7 @@
     
     Authors: Speykious
  */
-import { Matrix4, Vector2 } from 'three';
+import { Matrix4, Vector2 } from '../inochi2d.es.js';
 var InterpolateMode;
 (function (InterpolateMode) {
     InterpolateMode["Linear"] = "linear";
