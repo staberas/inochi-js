@@ -4,7 +4,7 @@
     
     Authors: Luna Nielsen
 */
-import { Euler, Matrix4, Vector2, Vector3 } from './inochi2d.es.js';
+import { Euler, Matrix4, Vector2, Vector3 } from '../inochi2d.es.js';
 /**
  * Represents a transformation in 2D space.
  */
