@@ -13,6 +13,16 @@
     <script type="module" src="./dist/inochi2d.umd.js"></script>
     <script type="module" src="https://staberas.github.io/inochi-js/dist/test/test.js"></script> 
     <script src="./dist/test/test.js"></script> 
-  
+      <script >
+      // Set up a Three.JS scene, camera and renderer
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+// Download and load the puppet
+const puppet =  Inochi2D.INP.inImportFromURL('Aka.inx')
+    </script> 
   </body>
 </html>
