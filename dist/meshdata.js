@@ -8,7 +8,7 @@
     
     Authors: Luna Nielsen
  */
-import { Vector2 } from 'three';
+import { Vector2 } from '../inochi2d.es.js';
 /**
  * Mesh data
  */
