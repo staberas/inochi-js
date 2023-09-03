@@ -1,7 +1,7 @@
-import { deserializeTransform } from "../math/transform";
-import { MeshData } from "../meshdata";
-import { Node, BlendMode, PathDeform } from "./node";
-import { Drawable, Part, Mask, MaskData } from "./drawable";
+import { deserializeTransform } from "../math/transform.js";
+import { MeshData } from "../meshdata.js";
+import { Node, BlendMode, PathDeform } from "./node.js";
+import { Drawable, Part, Mask, MaskData } from "./drawable.js";
 function deserializeBaseProperties(puppet, json, node) {
     node.puppet = puppet;
     node.type = json.type;
