@@ -7,7 +7,7 @@
     Authors: FartDraws
 */
 import * as THREE from "three";
-import { BlendMode } from "../nodes/node";
+import { BlendMode } from "../nodes/node.js";
 export const blend_modes = [
     { _blendmode: BlendMode.Normal, _constant: THREE.NormalBlending },
     { _blendmode: BlendMode.Screen, _constant: THREE.MultiplyBlending },
