@@ -4,11 +4,11 @@
     
     Authors: Luna Nielsen
 */
-import { deserializePuppet } from "./puppet";
+import { deserializePuppet } from "./puppet.js";
 import * as THREE from 'three';
-import { Parser } from "binary-parser";
-import { decode } from "fast-png";
-import { decodeTga } from "@lunapaint/tga-codec";
+import { Parser } from "binary-parser.js";
+import { decode } from "fast-png.js";
+import { decodeTga } from "@lunapaint/tga-codec.js";
 export async function downloadFile(url) {
     const response = await fetch(url);
     const arrayBuffer = await response.arrayBuffer();
