@@ -5,7 +5,7 @@
     Authors: Luna Nielsen
 */
 import { deserializePuppet } from "./puppet.js";
-import * as THREE from 'three';
+import * as THREE from '../inochi2d.es.js';
 import { Parser } from "binary-parser.js";
 import { decode } from "fast-png.js";
 import { decodeTga } from "@lunapaint/tga-codec.js";
