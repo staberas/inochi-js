@@ -6,8 +6,8 @@
     
     Authors: FartDraws
 */
-import * as Inochi2D from '../main';
-import * as THREE from '../inochi2d';
+import * as Inochi2D from '../main.js';
+import * as THREE from '../inochi2d.es.js';
 const scene = new THREE.Scene();
 const aspectRatio = window.innerWidth / window.innerHeight;
 // Set up the parameters for the orthographic camera
